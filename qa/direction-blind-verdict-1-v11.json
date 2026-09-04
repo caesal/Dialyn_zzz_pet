@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A：瞳孔与面部轴线轻微偏向画面右侧；B：眼神和面部重心轻微偏向画面左侧。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A：下巴和视线明确朝画面左侧；B：侧脸轮廓与视线明确朝画面右侧。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A：鼻口与面部轴线偏向画面右侧；B：可见眼睛和下巴朝画面左侧。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A：低头状态下脸部仍朝画面右侧；B：眼神与脸部开口朝画面左侧。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A：侧脸和露出的眼睛明显指向画面右侧；B：面部轴线回转至画面左侧。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A：虽闭眼，额头至下巴的倾向仍朝画面左侧；B：脸部开口与下巴偏向画面右侧。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A：低垂头部向画面左侧倾斜；B：露出的脸颊和鼻口轮廓朝画面右侧。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A：闭眼并明显收下巴；B：抬头、睁眼且张口，视线朝上。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A：眼线与下巴上扬；B：刘海压低、脸部俯向下方。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A：睁眼且面部微抬；B：头部下压，眼睛被刘海遮住并朝下。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A：下巴内收、视线下垂；B：脸部抬起且可见眼神上扬。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A：头位端正偏高、双眼向上；B：闭眼低头、下巴明显下沉。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A：睁眼并略抬下巴；B：双眼闭合且头部明显俯下。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A：眼神和下巴轻微上扬；B：眼线较低、下巴内收，呈向下观察。"
+    }
+  ]
+}

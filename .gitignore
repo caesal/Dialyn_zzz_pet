@@ -1,0 +1,16 @@
+# IDE and editor state
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Local scratch space
+.codex/
+tmp/

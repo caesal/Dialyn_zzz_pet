@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "purpose": "Correct the final geometry-registration and chroma-despill order without changing the user-approved motion.",
+  "from": {
+    "path": "assets/final/versions/dialyn-spritesheet-v2-motion-v10-55050da3.png",
+    "sha256": "55050da3ff20912f7c7247f153449cb9122a439dbac73a55531be3aea7646194",
+    "encoded_bytes": 3779122
+  },
+  "to": {
+    "path": "assets/final/dialyn-spritesheet-v2.png",
+    "versioned_copy": "assets/final/versions/dialyn-spritesheet-v2-release-v11-0accdfdd.png",
+    "sha256": "0accdfdd60269f69309ed91dca5f7eb95471b4ed13eff29ba4f9a26574ec1a90",
+    "encoded_bytes": 3792921
+  },
+  "alpha_comparison": {
+    "identical": true,
+    "different_pixels": 0,
+    "maximum_absolute_difference": 0,
+    "all_88_cell_occupancies_identical": true,
+    "all_88_cell_bounding_boxes_identical": true
+  },
+  "scope": {
+    "rows_0_through_8_rgba_identical": true,
+    "rows_with_rgb_changes": [9, 10],
+    "look_direction_cells_changed": 16,
+    "visible_rgb_changed_pixels": 106307,
+    "changed_pixels_in_7px_edge_band_percent": 94.6645093926082
+  },
+  "final_despill": {
+    "pre_despill_sha256": "b5a8eb8da2b6f302721f7d369b7762410449c532392db764c7dfc3683217e13e",
+    "registered_pre_despill_sha256": "452930173a0a2bc75e6ffaf29ef7d3fcc16238a6c05ba08785322d7a4c9ffb5e",
+    "final_sha256": "0accdfdd60269f69309ed91dca5f7eb95471b4ed13eff29ba4f9a26574ec1a90",
+    "order": ["geometry-registration", "single-despill", "exact-byte-validation"],
+    "alpha_preserved": true,
+    "changed_pixels": 258861,
+    "changed_pixels_matching_report": true,
+    "all_changes_within_1_to_7px_boundary_band": true
+  },
+  "visual_review": {
+    "normal_size": "No pose, scale, footprint, silhouette, identity, or motion change detected.",
+    "two_x": "No pose, scale, footprint, silhouette, identity, or motion change detected.",
+    "conclusion": "The v10 motion approval remains applicable; v11 is an edge-color cleanup and exact-byte QA finalization only."
+  }
+}

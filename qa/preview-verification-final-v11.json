@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "cell_size": [192, 208],
+  "previews": [
+    {"path": "assets/previews/states/idle.gif", "frames": 6, "duration_ms": 1100},
+    {"path": "assets/previews/states/running-right.gif", "frames": 8, "duration_ms": 1060},
+    {"path": "assets/previews/states/running-left.gif", "frames": 8, "duration_ms": 1060},
+    {"path": "assets/previews/states/waving.gif", "frames": 4, "duration_ms": 700},
+    {"path": "assets/previews/states/jumping.gif", "frames": 5, "duration_ms": 840},
+    {"path": "assets/previews/states/failed.gif", "frames": 8, "duration_ms": 1220},
+    {"path": "assets/previews/states/waiting.gif", "frames": 6, "duration_ms": 1010},
+    {"path": "assets/previews/states/running.gif", "frames": 6, "duration_ms": 820},
+    {"path": "assets/previews/states/review.gif", "frames": 6, "duration_ms": 1030},
+    {"path": "assets/previews/all-states.gif", "frames": 57, "duration_ms": 8840},
+    {"path": "assets/previews/idle-jump-idle.gif", "frames": 17, "duration_ms": 3040},
+    {"path": "assets/previews/look-loop.gif", "frames": 17, "duration_ms": 2040}
+  ],
+  "notes": [
+    "Every state GIF was regenerated from cells cropped from the exact final atlas bytes.",
+    "The v11 preview manifest intentionally excludes all-states.mp4 because FFmpeg was unavailable; the required GIF bundle is complete."
+  ]
+}
