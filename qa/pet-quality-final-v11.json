@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "atlas": "assets/final/dialyn-spritesheet-v2.png",
+  "versioned_copy": "assets/final/versions/dialyn-spritesheet-v2-release-v11-0accdfdd.png",
+  "sha256": "0accdfdd60269f69309ed91dca5f7eb95471b4ed13eff29ba4f9a26574ec1a90",
+  "contract": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "dimensions": [1536, 2288],
+    "cell_dimensions": [192, 208],
+    "sprite_version_number": 2,
+    "used_frame_slots": 73,
+    "unused_frame_slots": 15,
+    "transparent_rgb_residue_pixels": 0,
+    "opaque_chroma_key_pixels": 9,
+    "chroma_fringe_pixels": 0
+  },
+  "pipeline": {
+    "order": ["geometry-registration", "single-despill", "exact-byte-validation", "preview-and-QA-regeneration", "local-installation"],
+    "pre_despill_sha256": "b5a8eb8da2b6f302721f7d369b7762410449c532392db764c7dfc3683217e13e",
+    "registered_pre_despill_sha256": "452930173a0a2bc75e6ffaf29ef7d3fcc16238a6c05ba08785322d7a4c9ffb5e",
+    "despill_alpha_preserved": true,
+    "exact_final_sha256_validated": true
+  },
+  "approved_motion_delta": {
+    "alpha_identical_to_v10": true,
+    "rows_0_through_8_rgba_identical_to_v10": true,
+    "only_changed_rows": [9, 10],
+    "change": "Edge-color despill only; no pose, scale, footprint, silhouette, landing, or trajectory change."
+  },
+  "standard_motion": {
+    "frame_review_ok": true,
+    "states_reviewed": 9,
+    "frame_counts": [6, 8, 8, 4, 5, 8, 6, 6, 6],
+    "warnings": [
+      "jumping uses the documented stable-slots extraction policy to preserve the authored vertical arc",
+      "failed uses the documented stable-slots extraction policy to preserve the wide side-lying choreography"
+    ]
+  },
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [202, 193, 164, 200, 202],
+    "airborne_lift_pixels": 38,
+    "landing_delta_pixels": 0
+  },
+  "look": {
+    "direction_count": 16,
+    "uniform_visible_height_pixels": 192,
+    "registered_baseline_y": 203,
+    "maximum_center_drift_pixels": 0.5,
+    "maximum_width_ratio": 1.08,
+    "blind_pair_validation_ok": true,
+    "blind_pair_count": 14,
+    "blind_cells_unanimous": 28,
+    "blind_pair_errors": [],
+    "blind_pair_warnings": [],
+    "continuity_ok": true,
+    "continuity_review_required": true,
+    "continuity_notes": [
+      "The 157.5 to 180 and 337.5 to 000 seams remain local pixel-difference outliers and were visually accepted as coherent pose and expression transitions.",
+      "Reported interior alpha holes correspond to the open center of the ring weapon, not chroma spill or ghost silhouettes."
+    ]
+  },
+  "previews": {
+    "all_state_gif_frames": 57,
+    "look_loop_gif_frames": 17,
+    "all_required_gifs_regenerated_from_exact_final_atlas": true,
+    "mp4_in_v11_manifest": false
+  },
+  "compatibility": {
+    "project_contract_ok": true,
+    "current_hatch_validator_ok": false,
+    "expected_exception": "The current hatch validator requires idle r0c6 to contain a neutral frame, while this repository's approved 73-frame contract requires r0c6 and every other unused slot to be transparent. No other hatch validator error or warning remains."
+  },
+  "approval_and_installation": {
+    "motion_preview_user_approved": true,
+    "approval_date": "2026-09-04",
+    "stable_id": "custom:dialyn",
+    "local_package_updated": true,
+    "installed_bytes_match_final_atlas": true,
+    "selected": true,
+    "overlay_enabled": true,
+    "desktop_resource_refresh_required": true,
+    "desktop_resource_refresh_verified": false,
+    "uploaded_to_web": false
+  }
+}

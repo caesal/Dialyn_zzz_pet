@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\final\\dialyn-spritesheet-v2.png",
+  "output": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\direction-sheet.png",
+  "atlas_size": [
+    1536,
+    2288
+  ],
+  "cell_size": [
+    192,
+    208
+  ],
+  "neutral": {
+    "source": "idle",
+    "row": 0,
+    "column": 0
+  },
+  "look_rows": [
+    9,
+    10
+  ],
+  "direction_count": 16,
+  "sheet_size": [
+    1536,
+    1170
+  ],
+  "json_output": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\qa\\direction-sheet-final-v11.json"
+}

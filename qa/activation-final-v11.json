@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "stable_id": "custom:dialyn",
+  "display_name": "Dialyn",
+  "sprite_version_number": 2,
+  "manifest": "C:/Users/c4esa/.codex/pets/dialyn/pet.json",
+  "installed_atlas": "C:/Users/c4esa/.codex/pets/dialyn/spritesheet.png",
+  "installed_sha256": "0accdfdd60269f69309ed91dca5f7eb95471b4ed13eff29ba4f9a26574ec1a90",
+  "installed_bytes": 3792921,
+  "source_and_installed_bytes_identical": true,
+  "installed_project_contract_ok": true,
+  "selected_avatar_id_matches": true,
+  "overlay_enabled": true,
+  "desktop_resource_cache": {
+    "refreshed_in_ui": false,
+    "verification": "pending user click in Settings > Pets > Refresh",
+    "reason": "The desktop local-pet list uses a persistent cache and no supported non-interactive refresh command is available."
+  },
+  "backups": [
+    "C:/Users/c4esa/.codex/pet-backups/dialyn/20260904-v10-55050da3",
+    "C:/Users/c4esa/.codex/pet-backups/dialyn/20260904-v10-c05ef888"
+  ]
+}

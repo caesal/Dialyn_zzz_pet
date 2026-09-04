@@ -1,0 +1,96 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\c4esa\\.codex\\tmp\\dialyn-finalize-v11-0accdfdd\\frames",
+  "atlas": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\final\\dialyn-spritesheet-v2.png",
+  "outputs": [
+    {
+      "kind": "state",
+      "state": "idle",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\idle.gif",
+      "frames": 6
+    },
+    {
+      "kind": "state",
+      "state": "running-right",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\running-right.gif",
+      "frames": 8
+    },
+    {
+      "kind": "state",
+      "state": "running-left",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\running-left.gif",
+      "frames": 8
+    },
+    {
+      "kind": "state",
+      "state": "waving",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\waving.gif",
+      "frames": 4
+    },
+    {
+      "kind": "state",
+      "state": "jumping",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\jumping.gif",
+      "frames": 5
+    },
+    {
+      "kind": "state",
+      "state": "failed",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\failed.gif",
+      "frames": 8
+    },
+    {
+      "kind": "state",
+      "state": "waiting",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\waiting.gif",
+      "frames": 6
+    },
+    {
+      "kind": "state",
+      "state": "running",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\running.gif",
+      "frames": 6
+    },
+    {
+      "kind": "state",
+      "state": "review",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\states\\review.gif",
+      "frames": 6
+    },
+    {
+      "kind": "combined",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\all-states.gif",
+      "frames": 57
+    },
+    {
+      "kind": "transition",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\idle-jump-idle.gif",
+      "frames": 17
+    },
+    {
+      "kind": "look",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\look-loop.gif",
+      "frames": 17
+    },
+    {
+      "kind": "still",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\stills\\idle.png",
+      "frames": 1
+    },
+    {
+      "kind": "still",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\stills\\jump.png",
+      "frames": 1
+    },
+    {
+      "kind": "still",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\stills\\wave.png",
+      "frames": 1
+    },
+    {
+      "kind": "still",
+      "path": "C:\\Users\\c4esa\\PycharmProjects\\Dialyn_zzz_pet\\assets\\previews\\stills\\look-up.png",
+      "frames": 1
+    }
+  ]
+}
