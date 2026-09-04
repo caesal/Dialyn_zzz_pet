@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair": "horizontal-1", "A": "screen-left", "B": "screen-right", "reason": "A shows the nose and gaze offset toward screen-left; B mirrors that with the nose and pupils offset toward screen-right."},
+    {"pair": "horizontal-2", "A": "screen-left", "B": "screen-right", "reason": "A reads as a leftward three-quarter view with the face aiming left; B reads as the opposite three-quarter view aiming right."},
+    {"pair": "horizontal-3", "A": "screen-right", "B": "screen-left", "reason": "A shows a stronger rightward head turn with the face surface and visible eye pushed toward screen-right; B flips that toward screen-left."},
+    {"pair": "horizontal-4", "A": "screen-right", "B": "screen-left", "reason": "A is a clear right-facing profile with one eye and nose pointing right; B turns the face back toward screen-left."},
+    {"pair": "horizontal-5", "A": "screen-left", "B": "screen-right", "reason": "A presents the face and nose biased toward screen-left; B presents the face and nose biased toward screen-right."},
+    {"pair": "horizontal-6", "A": "ambiguous", "B": "ambiguous", "reason": "Both are bowed/closed-eye poses where the lateral nose and pupil cues are too obscured at this display size to call left vs right confidently."},
+    {"pair": "horizontal-7", "A": "ambiguous", "B": "ambiguous", "reason": "Both downward closed-eye poses hide the key facial landmarks, so the horizontal gaze axis is not definite without guessing."},
+    {"pair": "vertical-1", "A": "down", "B": "up", "reason": "A has closed lids and a tucked chin reading downward; B has lifted face, open mouth, and pupils set high, reading upward."},
+    {"pair": "vertical-2", "A": "down", "B": "ambiguous", "reason": "A shows a lowered face surface and tucked profile, reading down; B looks closer to level, without a definite up/down cue."},
+    {"pair": "vertical-3", "A": "ambiguous", "B": "down", "reason": "A reads roughly level at this size; B has the head dipped with eyelid and face angle pointing downward."},
+    {"pair": "vertical-4", "A": "ambiguous", "B": "down", "reason": "A does not show a definite vertical head aim; B has a tucked, lowered facial angle that reads downward."},
+    {"pair": "vertical-5", "A": "up", "B": "down", "reason": "A has a slightly lifted face with pupils riding high, while B has closed eyes and a bowed head reading down."},
+    {"pair": "vertical-6", "A": "up", "B": "down", "reason": "A reads upward from the raised face and high pupil placement; B reads downward from the lowered lids and chin tuck."},
+    {"pair": "vertical-7", "A": "up", "B": "ambiguous", "reason": "A shows a lifted face and higher gaze line, while B looks near level with no definite vertical direction at displayed size."}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair": "horizontal-1", "A": "screen-right", "B": "screen-left", "reason": "A's pupils and nose point screen-right; B's irises and facial center shift screen-left."},
+    {"pair": "horizontal-2", "A": "screen-left", "B": "screen-right", "reason": "A's head and nose turn screen-left, while B's narrowed far eye and face point screen-right."},
+    {"pair": "horizontal-3", "A": "screen-right", "B": "screen-left", "reason": "A's face and pupils angle screen-right; B's nose and eye line angle screen-left."},
+    {"pair": "horizontal-4", "A": "screen-right", "B": "screen-left", "reason": "A's facial plane turns screen-right; B's head geometry and gaze turn screen-left."},
+    {"pair": "horizontal-5", "A": "screen-left", "B": "screen-right", "reason": "A's nose and eyes point screen-left; B's bowed head remains turned screen-right."},
+    {"pair": "horizontal-6", "A": "screen-left", "B": "screen-right", "reason": "A's face is visibly turned screen-left, while B's nose and visible eye point screen-right."},
+    {"pair": "horizontal-7", "A": "screen-right", "B": "screen-left", "reason": "A's bowed face points screen-right; B's closed-eye head pose is turned screen-left."},
+    {"pair": "vertical-1", "A": "down", "B": "up", "reason": "A's head is bowed with closed eyes; B's lifted face and high pupils read up."},
+    {"pair": "vertical-2", "A": "down", "B": "up", "reason": "A's lowered head and eyes indicate down; B's upright face and raised gaze indicate up."},
+    {"pair": "vertical-3", "A": "up", "B": "down", "reason": "A's open eyes and lifted facial pitch read up; B's bowed head and lowered gaze read down."},
+    {"pair": "vertical-4", "A": "up", "B": "down", "reason": "A's eye line is raised; B's eyelids and head angle are lowered."},
+    {"pair": "vertical-5", "A": "up", "B": "down", "reason": "A's chin and pupils lift upward; B's bowed head and closed eyes clearly indicate down."},
+    {"pair": "vertical-6", "A": "up", "B": "down", "reason": "A's face tilts upward with raised pupils; B's half-lidded eyes and pitch point down."},
+    {"pair": "vertical-7", "A": "up", "B": "down", "reason": "A's eyes and facial plane lift upward; B's pupils and head pitch sit lower."}
+  ]
+}
