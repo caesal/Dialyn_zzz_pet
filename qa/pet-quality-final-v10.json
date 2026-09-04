@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "atlas": "assets/final/dialyn-spritesheet-v2.png",
+  "sha256": "55050da3ff20912f7c7247f153449cb9122a439dbac73a55531be3aea7646194",
+  "contract": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "dimensions": [1536, 2288],
+    "cell_dimensions": [192, 208],
+    "sprite_version_number": 2,
+    "used_frame_slots": 73,
+    "unused_frame_slots": 15,
+    "transparent_rgb_residue_pixels": 0,
+    "opaque_chroma_key_pixels": 9,
+    "chroma_fringe_pixels": 0
+  },
+  "standard_motion": {
+    "frame_review_ok": true,
+    "states_reviewed": 9,
+    "warnings": [
+      "jumping uses the documented stable-slots extraction policy to preserve the authored vertical arc",
+      "failed uses the documented stable-slots extraction policy to preserve the wide side-lying choreography"
+    ]
+  },
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [202, 193, 164, 200, 202],
+    "airborne_lift_pixels": 38,
+    "landing_delta_pixels": 0
+  },
+  "look": {
+    "direction_count": 16,
+    "uniform_visible_height_pixels": 192,
+    "registered_baseline_y": 203,
+    "maximum_center_drift_pixels": 0.5,
+    "maximum_width_ratio": 1.08,
+    "blind_pair_validation_ok": true,
+    "blind_pair_count": 14,
+    "blind_pair_errors": [],
+    "blind_pair_warnings": [],
+    "continuity_ok": true,
+    "continuity_review_required": true,
+    "blind_pair_notes": [
+      "Blind reviewers 1 and 2 matched all 28 consensus A/B cells.",
+      "Blind reviewer 3 reversed both cells in the oblique horizontal-1 pair and marked eight other oblique cells ambiguous.",
+      "Strict-majority consensus still confirmed all 28 cells, including unanimous 090/270 and 000/180 hard gates; no consensus result remained unconfirmed."
+    ],
+    "continuity_notes": [
+      "The 157.5 to 180 and 337.5 to 000 seams are local pixel-difference outliers and were visually accepted as coherent pose and expression transitions.",
+      "Reported interior alpha holes correspond to the open center of the ring weapon, not chroma spill or ghost silhouettes."
+    ]
+  },
+  "compatibility": {
+    "project_contract_ok": true,
+    "current_hatch_validator_ok": false,
+    "expected_exception": "The current hatch validator requires idle r0c6 to contain a neutral frame, while this repository's approved 73-frame contract requires r0c6 and every other unused slot to be transparent. No other hatch validator error or warning remains."
+  },
+  "approval": {
+    "motion_preview_user_approved": false,
+    "uploaded": false,
+    "activated": false
+  }
+}

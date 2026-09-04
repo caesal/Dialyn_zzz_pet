@@ -3,6 +3,7 @@
   "slug": "dialyn-zzz-pet",
   "description": "A chibi Dialyn companion from Zenless Zone Zero: sharp-tongued, reliable, and always ready to take a call.",
   "sprite_version": 2,
+  "spriteVersionNumber": 2,
   "atlas": {
     "path": "assets/final/dialyn-spritesheet-v2.png",
     "width": 1536,
@@ -15,6 +16,6 @@
   },
   "validation": {
     "valid": true,
-    "sha256": "c05ef888d7941d599bbe0339de08e9936c2fbe954173dfd6ab3e13d0903c093c"
+    "sha256": "55050da3ff20912f7c7247f153449cb9122a439dbac73a55531be3aea7646194"
   }
 }

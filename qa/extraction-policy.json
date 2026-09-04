@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "standard_rows": {
+    "idle": "components",
+    "running-right": "components",
+    "running-left": "components",
+    "waving": "components",
+    "jumping": "stable-slots",
+    "failed": "stable-slots",
+    "waiting": "components",
+    "running": "components",
+    "review": "components"
+  },
+  "jumping_rationale": "The approved source strip contains the intended vertical jump arc. Per-frame component fitting cancels that motion, so stable-slots is required to preserve takeoff, apex, and landing while keeping a shared 192x208 viewport.",
+  "failed_rationale": "The low side-lying poses are wider than upright poses and their chroma-edge components approach neighboring slots. Stable-slots preserves the authored elbow-brace and buckle timing without merging or independently rescaling poses."
+}
