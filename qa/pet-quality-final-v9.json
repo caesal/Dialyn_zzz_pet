@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "atlas": "assets/final/dialyn-spritesheet-v2.png",
+  "encoded_bytes": 3436195,
+  "sha256": "c05ef888d7941d599bbe0339de08e9936c2fbe954173dfd6ab3e13d0903c093c",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      201,
+      192,
+      163,
+      199,
+      202
+    ],
+    "airborne_lift_pixels": 39,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      104.0,
+      102.0,
+      100.0,
+      100.0,
+      102.0,
+      100.0,
+      99.0,
+      98.5,
+      104.0,
+      105.0,
+      104.5,
+      104.5,
+      104.0,
+      105.5,
+      104.5,
+      103.5
+    ],
+    "look_widths": [
+      104,
+      102,
+      100,
+      100,
+      100,
+      98,
+      96,
+      95,
+      92,
+      92,
+      91,
+      91,
+      90,
+      89,
+      89,
+      89
+    ],
+    "maximum_center_drift_pixels": 9.5,
+    "maximum_width_ratio": 1.1685393258426966
+  },
+  "errors": [],
+  "warnings": [
+    "157.5->180 diff is a local outlier (5520 pixels vs neighbor average 1883)",
+    "157.5->180 center shift is high (12.7px)",
+    "337.5->000 diff is a local outlier (4316 pixels vs neighbor average 2130)"
+  ]
+}
